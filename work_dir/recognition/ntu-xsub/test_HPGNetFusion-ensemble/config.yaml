@@ -1,0 +1,67 @@
+# command line: main.py rec_ensemble --phase test --config config/mv-ignet/ntu-xsub/test_hpgnet_ensemble_simple.yaml
+
+base_lr: 0.01
+batch_size: 256
+config: config/mv-ignet/ntu-xsub/test_hpgnet_ensemble_simple.yaml
+debug: false
+device:
+- 0
+- 1
+eval_interval: 5
+feeder: feeder.NTUDatasets.SimpleLoader
+ignore_weights: []
+log_interval: 100
+model: net.HPGNet.ModelFusion
+model2: net.HPGNet.ModelFusion
+model3: null
+model4: null
+model_args:
+    dilation: 1
+    dropout: 0.5
+    graph_args:
+        graph_type: undigraph
+        layout: ntu-rgb+d
+        strategy: uniform
+    group_num: 5
+    in_channels: 3
+    in_plane: 64
+    num_class: 60
+    topology: default
+model_args2: {}
+model_args3: {}
+model_args4: {}
+nesterov: true
+num_epoch: 80
+num_worker: 4
+optimizer: SGD
+pavi_log: false
+phase: test
+print_log: true
+residual: false
+save_interval: 10
+save_log: true
+save_result: false
+show_topk:
+- 1
+- 5
+sparse: true
+start_epoch: 0
+step: []
+test_batch_size: 128
+test_feeder_args:
+    data_path: ./dataset/NTU-60/xsub/val_data.npy
+    data_type: relative
+    displacement: 1
+    label_path: ./dataset/NTU-60/xsub/val_label.npy
+    mmap: false
+    sampling: resize
+    t_length: 200
+    y_rotation: true
+train_feeder_args: {}
+use_gpu: false
+weight_decay: 0.0001
+weights: work_dir/recognition/ntu-xsub/HPGNetFusion/best_model.pt
+weights2: work_dir/recognition/ntu-xsub/HPGNetFusion/best_model.pt
+weights3: null
+weights4: null
+work_dir: ./work_dir/recognition/ntu-xsub/test_HPGNetFusion-ensemble

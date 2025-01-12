@@ -1,0 +1,487 @@
+[02.25.22|15:00:50] Load weights from F:/mv-ignet/weights/xview/xview_HPGNet_epoch120_model.pt.
+[02.25.22|15:00:50] Load weights [fusion_net.A].
+[02.25.22|15:00:50] Load weights [fusion_net.A_group].
+[02.25.22|15:00:50] Load weights [fusion_net.A_embed].
+[02.25.22|15:00:50] Load weights [fusion_net.data_bn.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.data_bn.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.data_bn.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.data_bn.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.data_bn.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_bn.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_bn.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_bn.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_bn.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_bn.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.0.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.1.residual.0.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.2.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.skeleton_net.3.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.0.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.1.residual.0.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.2.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.motion_net.3.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.0.residual.0.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.gcn.dw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.gcn.pw_gcn_weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.gcn.A].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.0.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.0.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.0.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.0.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.0.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.1.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.1.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.1.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.1.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.1.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.3.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.4.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.4.bias].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.4.running_mean].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.4.running_var].
+[02.25.22|15:00:50] Load weights [fusion_net.fusion.1.tcn.conv.2.4.num_batches_tracked].
+[02.25.22|15:00:50] Load weights [fusion_net.fcn.weight].
+[02.25.22|15:00:50] Load weights [fusion_net.fcn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.2.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.2.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.4.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.0.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.gcn.bn.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.3.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.att.fcn.2.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.1.att.fcn.1.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.gcn.bn.running_mean].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.gcn.bn.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.3.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.1.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.fusion.0.gcn.bn.num_batches_tracked].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.2.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.0.att.fcn.2.bias].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.1.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.motion_net.2.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.gcn.bn.running_var].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.2.att.fcn.4.weight].
+[02.25.22|15:00:50] Can not find weights [fusion_net.skeleton_net.1.gcn.bn.running_mean].
+[02.25.22|15:00:53] Parameters:
+{
+    "base_lr": 0.2,
+    "batch_size": 128,
+    "config": "config/mv-ignet/ntu-xsub/train_hpgnet-complement_simple.yaml",
+    "debug": false,
+    "device": [
+        0,
+        1
+    ],
+    "eval_interval": 1,
+    "feeder": "feeder.NTUDatasets.SimpleLoader",
+    "ignore_weights": [],
+    "log_interval": 100,
+    "model": "net.HPGNet.ModelFusion",
+    "model_args": {
+        "dilation": 1,
+        "dropout": 0.3,
+        "graph_args": {
+            "graph_type": "undigraph",
+            "layout": "ntu-rgb+d",
+            "strategy": "uniform"
+        },
+        "group_num": 5,
+        "in_channels": 3,
+        "in_plane": 64,
+        "num_class": 60,
+        "topology": "complement"
+    },
+    "nesterov": true,
+    "num_epoch": 90,
+    "num_worker": 4,
+    "optimizer": "SGD",
+    "pavi_log": false,
+    "phase": "train",
+    "print_log": true,
+    "save_interval": 1,
+    "save_log": true,
+    "save_result": false,
+    "show_topk": [
+        1,
+        5
+    ],
+    "sparse": false,
+    "start_epoch": 0,
+    "step": [
+        30,
+        50,
+        70
+    ],
+    "test_batch_size": 128,
+    "test_feeder_args": {
+        "data_path": "./dataset/NTU-60/xsub/val_data.npy",
+        "data_type": "relative",
+        "displacement": 1,
+        "label_path": "./dataset/NTU-60/xsub/val_label.npy",
+        "mmap": false,
+        "sampling": "resize",
+        "t_length": 200,
+        "y_rotation": true
+    },
+    "train_feeder_args": {
+        "data_path": "./dataset/NTU-60/xsub/train_data.npy",
+        "data_type": "relative",
+        "displacement": 1,
+        "label_path": "./dataset/NTU-60/xsub/train_label.npy",
+        "mmap": false,
+        "sampling": "resize",
+        "t_length": 200,
+        "y_rotation": true
+    },
+    "use_gpu": false,
+    "weight_decay": 0.0001,
+    "weights": "F:/mv-ignet/weights/xview/xview_HPGNet_epoch120_model.pt",
+    "work_dir": "./work_dir/recognition/ntu-xsub/HPGNetFusion-complement"
+}
+
+[02.25.22|15:00:53] ---------- Networks initialized -------------
+[02.25.22|15:00:53] [Network] Total number of parameters : 0.637 M
+[02.25.22|15:00:53] -----------------------------------------------
+[02.25.22|15:00:53] Training epoch: 0
+[02.25.22|15:02:41] 	Iter 0 Done. | loss: 0.0634 | lr: 0.200000
+[02.25.22|15:07:26] 	train_mean_loss: 0.18479860872030257
+[02.25.22|15:07:26] Time consumption:
+[02.25.22|15:07:26] Done.
+[02.25.22|15:07:26] Eval epoch: 0
+[02.25.22|15:08:08] 	eval_mean_loss: 19.050212224324543
+[02.25.22|15:08:08] 	Top1: 1.67%
+[02.25.22|15:08:08] 	Top5: 17.50%
+[02.25.22|15:08:08] 	Best Top1: 1.67%
+[02.25.22|15:08:08] Done.
+[02.25.22|15:08:08] current 1.67%, best 1.67%
+[02.25.22|15:08:08] The model has been saved as ./work_dir/recognition/ntu-xsub/HPGNetFusion-complement/epoch001_acc1.67_model.pt.
+[02.25.22|15:08:08] The model has been saved as ./work_dir/recognition/ntu-xsub/HPGNetFusion-complement/best_model.pt.
+[02.25.22|15:08:08] Training epoch: 1
